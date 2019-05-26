@@ -11,5 +11,4 @@ def sort_array_desc(integer)
      index += 1 
       puts "#{index}. #{integer}"
     end
-    integer
 end
