@@ -5,9 +5,8 @@ def sort_array_asc(integer)
     end
       integer.reverse!
 end
-
-def sort_array_desc(integer)
-   do |b,a|
+def sort_array_desc(array)
+  array.sort do |b,a|
     a <=> b
   end
 end
