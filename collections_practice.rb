@@ -8,7 +8,7 @@ end
 
 def sort_array_desc(integer)
   integer.each_with_index do |integer, index|
-     index -= 1 
+     index += 1 
       puts "#{index}. #{integer}"
     end
     integer.reverse!.sort
