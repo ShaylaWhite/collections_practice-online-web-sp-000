@@ -43,3 +43,6 @@ def sum_array
     sum + x
   end
 end
+
+def add_s
+  array.each_with_index.collect{|
