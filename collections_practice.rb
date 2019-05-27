@@ -27,6 +27,8 @@ end
 
 def kesha_maker(array)
   array do |i|
-    
+    puts i 
+  end 
+end
 end
 end
