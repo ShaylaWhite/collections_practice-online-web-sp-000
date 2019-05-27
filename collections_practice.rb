@@ -46,4 +46,10 @@ end
 
 def add_s
   array.each_with_index.collect{|element, index| }
-  
+   if index == 1
+      word
+    else
+      word + "s"
+    end
+  end
+end
