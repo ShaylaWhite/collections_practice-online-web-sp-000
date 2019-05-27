@@ -33,22 +33,23 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each do |element|
-    element.start_with?("a")
+  array.select do |word|
+  word[0]=="a"
 end
 end
 
-def sum_array
+def sum_array(array)
   array.inject(0) do |sum, x|
     sum + x
   end
 end
 
-def add_s
-  array.each_with_index.collect{|word, index| }
-   if index == 1
+def add_s(array)
+  array.each_with_index.collect do |word, index|
+    if index == 1
       word
     else
       word + "s"
     end
+  end
 end
